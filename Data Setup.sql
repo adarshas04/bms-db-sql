@@ -1,0 +1,12 @@
+INSERT INTO Theatre (theatre_id, theatre_name, location, capacity) VALUES (1, 'ABC Theatre', 'Mumbai', 100);
+INSERT INTO Theatre (theatre_id, theatre_name, location, capacity) VALUES (2, 'DEF Theatre', 'Pune', 150);
+INSERT INTO Theatre (theatre_id, theatre_name, location, capacity) VALUES (3, 'GHI Theatre', 'Mumbai', 200);
+INSERT INTO Movie (movie_id, movie_title, genre, duration) VALUES (1, '12th Fail', 'Drama', 150);
+INSERT INTO Movie (movie_id, movie_title, genre, duration) VALUES (2, 'Gangs of Wasseypur', 'Action', 180);
+INSERT INTO Movie (movie_id, movie_title, genre, duration) VALUES (3, 'Shaitaan', 'Horror', 180);
+INSERT INTO Shows (show_id, theatre_id, movie_id, show_date, show_time) VALUES (1, 1, 1, '2024-04-01', '18:00:00');
+INSERT INTO Shows (show_id, theatre_id, movie_id, show_date, show_time) VALUES (2, 2, 1, '2024-04-01', '18:00:00');
+INSERT INTO Shows (show_id, theatre_id, movie_id, show_date, show_time) VALUES (3, 3, 3, '2024-04-01', '15:00:00');
+INSERT INTO Shows (show_id, theatre_id, movie_id, show_date, show_time) VALUES (4, 3, 2, '2024-04-01', '18:00:00');
+INSERT INTO Shows (show_id, theatre_id, movie_id, show_date, show_time) VALUES (5, 1, 2, '2024-04-01', '15:00:00');
+INSERT INTO Shows (show_id, theatre_id, movie_id, show_date, show_time) VALUES (6, 2, 3, '2024-04-01', '21:00:00');
